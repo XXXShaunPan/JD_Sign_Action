@@ -57,7 +57,7 @@ function dateFormat() {
   var n_Date = new Date().getTime();
   var t_Date = new Date(n_Date + GMT_offset * 60 * 1000 + timezone * 60 * 60 * 1000);
   console.log(t_Date)
-  return t_Date.Format('yyyy.MM.dd')
+  return t_Date.Format('  MM-dd H:m:s')
 }
 
 function setupCookie() {
