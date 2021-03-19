@@ -111,7 +111,7 @@ function send(){
 
         template_id:"4ORaT-FOFzhDae1Qsm29dZSDDlQKmkK24XtCU7x8FO0",
 
-        url:"https://www.baidu.com",
+        url:"https://hub.fastgit.org/XXXShaunPan/JD_Sign_Action/blob/master/result.txt",
 
         topcolor:"#FF0000",
 
