@@ -121,7 +121,7 @@ function send(){
                     color:"#ff3399"
                 },
                 content:{
-                    value:desp,
+                    value:dateFormat()+"\n"+desp,
 
                     color:"#cc00ff"
                 },
