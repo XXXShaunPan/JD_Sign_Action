@@ -45,5 +45,14 @@ jobs:
               with:
                 name: result
                 path: ./*.txt
-
-
+            - name: Commit files
+              run: |
+                git config --local user.email "19820637553@163.com"
+                git config --local user.name "XXXShaunPan"
+                git add .
+                git commit -m "`date '+%Y-%m-%d %H:%M:%S'`" #动态提交信息
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                branch: ${{ github.ref }}
